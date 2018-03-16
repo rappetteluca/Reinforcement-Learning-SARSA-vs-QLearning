@@ -19,7 +19,7 @@ Lucas Rappette
 - PDF Note: Since I have no idea how to create PDF files on the fly I have included a premade pdf of a sample run I performed Earlier today.
 You can create your own graphs following my exact same layout by copying and pasting the rewards distribution from the output files into the appropriate columns in the Xcel document I have included.
 - Overall the Q-Learning Algorithm works way better then the SARSA algorithm, which is counterintuitive. Additional Guidance on why SARSA settles for
-localMins and painful converging would be needed to make this a good program. (Read below).
+localMins and painful converging would be needed to make this a good program. **(Read below)**.
 
 ## How to build the software
 
@@ -51,4 +51,4 @@ Testing was completed by using many many test runs for both SARSA and QLearning.
 
 None.
 
-**Instructor Note**: The "weird" results you noted for SARSA are actually exactly what we expect.  Due to its "on-policy" approach it tends to play it safe.  With a much longer time horizon and slower randomness reduction, we could probably get rid of this, but over the time given, the difference between the two algorithms is to be expected.
+**Instructor Note: The "weird" results you noted for SARSA are actually exactly what we expect.  Due to its "on-policy" approach it tends to play it safe.  With a much longer time horizon and slower randomness reduction, we could probably get rid of this, but over the time given, the difference between the two algorithms is to be expected.**
