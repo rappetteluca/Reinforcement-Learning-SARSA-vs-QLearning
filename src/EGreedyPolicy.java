@@ -4,9 +4,7 @@ import java.util.LinkedList;
  * Class which stores a set of states and creates actions following the
  * E Greedy Policy.
  * 
- * I think something is wrong with how I choose Greedily however. 
- 
- * Namely, we want to be able to choose a **valid** State Action Pair for each state with the Highest Q Value.
+ * We want to be able to choose a **valid** State Action Pair for each state with the Highest Q Value.
  * Does not want to cooperate in the sense that some actions seem non-sensical (Walking a circle in a 4 block square for instance).
  *  
  * More learning episodes or more randomness could potentially solve this problem. (Negative values are always avoided once discovered).

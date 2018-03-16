@@ -9,9 +9,6 @@ import java.util.LinkedList;
 /**
  * A Shell from which many SARSA episodes are processed.
  * 
- * The SARSA Fails at random for some reason, and after 20 hours of Debugging
- * I'm ready to throw in the towel on getting it 100% working.
- * 
  * Convergence Rate seems to be at a lofty 50% for this algorithm.
  * 
  * @author Lucas
